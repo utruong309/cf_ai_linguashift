@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: system-ui;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 0.8rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+select,
+button {
+  padding: 0.6rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.panel {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.highlight {
+  background: rgba(244, 114, 182, 0.25);
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.badge.Clear {
+  background: rgba(22, 163, 74, 0.3);
+}
+
+.badge.Mixed {
+  background: rgba(234, 179, 8, 0.3);
+}
+
+.badge.Heavy {
+  background: rgba(220, 38, 38, 0.3);
+}
+
+.rewrite {
+  background: #0f172a;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.placeholder {
+  color: #64748b;
+}

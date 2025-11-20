@@ -1,0 +1,14 @@
+name = "cf_ai_linguashift_worker"
+main = "src/index.ts"
+compatibility_date = "2024-11-20"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "LINGUA_DO"
+class_name = "LinguaState"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["LinguaState"]
