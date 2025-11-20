@@ -188,7 +188,7 @@ await state.fetch("https://dummy/glossary", {
 });
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The project is configured via `wrangler.toml`:
 
@@ -224,17 +224,6 @@ npm test
 - **Durable Objects**: Persistent state and session management
 - **TypeScript**: Type-safe development
 - **Vitest**: Testing framework with Cloudflare Workers support
-
-## Environment Variables
-
-No additional environment variables are required for basic functionality. The Workers AI binding is configured automatically through `wrangler.toml`.
-
-## Notes
-
-- The application uses session-based state management via Durable Objects
-- Each `sessionId` maps to a unique Durable Object instance
-- Glossary and preferences are persisted per session
-- The Worker includes CORS headers for frontend integration
 
 ## Additional Resources
 
