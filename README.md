@@ -1,4 +1,4 @@
-# LinguaShift - AI-Powered Communication Assistant
+# LinguaShift - AI-Powered Corporate Messaging App
 
 LinguaShift is an AI-powered application built on Cloudflare that helps users detect and eliminate jargon from their communications, making messages clearer and more accessible to diverse audiences.
 
