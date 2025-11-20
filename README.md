@@ -11,7 +11,7 @@ LinguaShift is an AI-powered application built on Cloudflare that helps users de
   - Text rewriting with audience-specific customization
 - **Location**: `src/index.ts` - `handleDetect()` and `handleRewrite()` functions
 
-### 2. Workflow / Coordination
+### 2. Workflow
 - **Implementation**: Cloudflare Workers for request handling and Durable Objects for state coordination
 - **Architecture**:
   - **Workers**: Handle HTTP requests and coordinate with AI services (`src/index.ts`)
