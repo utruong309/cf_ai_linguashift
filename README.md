@@ -65,7 +65,7 @@ LinguaShift is an AI-powered application built on Cloudflare that helps users de
 
 - **Jargon Detection**: AI-powered analysis to identify technical terms and jargon in messages
 - **Smart Rewriting**: Automatically rewrite messages for different audiences (technical, non-technical, executives, etc.)
-- **Customizable Tone**: Adjust rewriting tone (neutral, friendly, professional, etc.)
+- **Customizable Tone**: Adapt rewriting tone (neutral, friendly, professional, etc.)
 - **Persistent Glossary**: Store custom terms per session for personalized detection
 - **Session Management**: Track user preferences and glossary per session using Durable Objects
 
