@@ -57,7 +57,7 @@ LinguaShift is an AI-powered application built on Cloudflare that helps users de
 ┌─────────┐ ┌─────────────┐
 │Workers  │ │  Durable    │
 │   AI    │ │  Objects    │
-│         │ │ (LinguaState)│
+│         │ │             │
 └─────────┘ └─────────────┘
 ```
 
